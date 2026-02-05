@@ -5,7 +5,8 @@
 }
 
 .hero-section {
-    height: 100vh;
+    min-height: 100svh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,7 +70,7 @@
 }
 
 .hero-title {
-    font-size: 12vw;
+    font-size: clamp(48px, 12vw, 150px);
     font-weight: 700;
     letter-spacing: -0.05em;
     background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0.6) 100%);
@@ -107,7 +108,7 @@
 
 .scroll-indicator {
     position: absolute;
-    bottom: 3rem;
+    bottom: 2.5rem;
     color: rgba(255, 255, 255, 0.3);
     text-transform: uppercase;
     font-size: 0.875rem;
@@ -117,7 +118,7 @@
 .projects-container {
     display: flex;
     flex-direction: column;
-    padding-bottom: 10rem;
+    padding-bottom: 8rem;
 }
 
 .site-footer {
@@ -125,4 +126,42 @@
     text-align: center;
     color: rgba(255, 255, 255, 0.2);
     border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 0 1.5rem;
+    }
+
+    .hero-title {
+        font-size: clamp(40px, 14vw, 96px);
+        letter-spacing: -0.03em;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .scroll-indicator {
+        bottom: 1.5rem;
+        font-size: 0.75rem;
+    }
+
+    .projects-container {
+        padding-bottom: 6rem;
+    }
+
+    .site-footer {
+        padding: 3rem 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        min-height: 94svh;
+    }
+
+    .scroll-indicator {
+        display: none;
+    }
 }

@@ -189,3 +189,73 @@
 .visit-btn:hover svg {
     transform: translate(2px, -2px);
 }
+
+@media (max-width: 900px) {
+    .project-section {
+        min-height: auto;
+        padding: 1.25rem;
+    }
+
+    .project-card {
+        aspect-ratio: auto;
+        min-height: 520px;
+    }
+
+    .card-content {
+        padding: 1.75rem;
+    }
+
+    .card-grid {
+        gap: 1.5rem;
+    }
+
+    .project-title {
+        font-size: 2rem;
+    }
+
+    .project-description {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .solution-box {
+        padding: 1.25rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .project-card {
+        min-height: 480px;
+    }
+
+    .card-content {
+        padding: 1.5rem;
+    }
+
+    .tags-container {
+        gap: 0.5rem;
+    }
+
+    .tag {
+        font-size: 0.65rem;
+        padding: 0.3rem 0.75rem;
+    }
+
+    .project-title {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+    }
+
+    .project-description {
+        font-size: 0.95rem;
+    }
+
+    .solution-text {
+        font-size: 0.85rem;
+    }
+
+    .visit-btn {
+        width: 100%;
+        padding: 0.9rem 1.5rem;
+    }
+}
