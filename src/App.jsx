@@ -5,15 +5,6 @@ import './App.css';
 
 const projects = [
   {
-    id: 'vv',
-    title: 'Validation & Verification',
-    url: 'https://vv.luluu.top/',
-    description: 'A comprehensive platform for the full dashboard-plan-execute-report lifecycle.',
-    solution: 'Implemented a closed-loop system allowing dynamic test plan generation, execution tracking, and automated reporting to streamline V&V processes.',
-    tags: ['Planning', 'Execution', 'Report'],
-    gradient: 'linear-gradient(135deg, #1f2937, #0f766e)'
-  },
-  {
     id: 'match3',
     title: 'Match-3 Game',
     url: 'https://match3.luluu.top/',
@@ -25,11 +16,20 @@ const projects = [
   {
     id: 'travel',
     title: 'Travel Itinerary Assistant',
-    url: 'https://travel-itinerary-assistant.vercel.app/',
+    url: 'https://demo1.luluu.top/',
     description: 'AI-powered assistant that converts text paragraphs into structured travel itineraries.',
     solution: 'Leverages LLMs to parse unstructured travel notes, extracting timeline, location, and activity data into a visual timeline.',
     tags: ['AI Agent', 'Mobile', 'Structure'],
     gradient: 'linear-gradient(135deg, #0f766e, #0f4c5c)'
+  },
+  {
+    id: 'vv',
+    title: 'Validation & Verification',
+    url: 'https://vv.luluu.top/',
+    description: 'A comprehensive platform for the full dashboard-plan-execute-report lifecycle.',
+    solution: 'Implemented a closed-loop system allowing dynamic test plan generation, execution tracking, and automated reporting to streamline V&V processes.',
+    tags: ['Planning', 'Execution', 'Report'],
+    gradient: 'linear-gradient(135deg, #1f2937, #0f766e)'
   }
 ];
 
