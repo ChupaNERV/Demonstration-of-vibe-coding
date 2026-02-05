@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Travel Itinerary Assistant · 项目详情</title>
+    <meta
+      name="description"
+      content="AI 旅行行程助手项目详情：背景、解决思路与亮点。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=ZCOOL+XiaoWei&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="bg-texture" aria-hidden="true"></div>
+    <header class="site-header">
+      <nav class="nav shell">
+        <a class="brand" href="../index.html">
+          <span class="brand-mark"></span>
+          <div>
+            <div class="brand-title">Vibe Coding Showcase</div>
+            <div class="brand-sub">成果详情页</div>
+          </div>
+        </a>
+        <div class="nav-links">
+          <a href="../index.html#projects">成果展示</a>
+          <a href="../index.html#method">方法论</a>
+          <a href="../index.html#notes">学习笔记</a>
+        </div>
+        <a class="cta" href="../index.html#projects">返回主页</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section project-hero reveal">
+        <div>
+          <p class="eyebrow">成果 #01</p>
+          <h1>Travel Itinerary Assistant</h1>
+          <p class="lead">
+            面向快速出行规划需求，通过 AI 生成结构化行程，并以卡片化方式呈现。
+            重点解决“信息太散、行程不成体系、移动端难读”的痛点。
+          </p>
+          <div class="project-actions">
+            <a
+              class="button primary"
+              href="https://travel-itinerary-assistant.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              访问线上项目
+            </a>
+            <a class="button ghost" href="../index.html#projects">返回成果列表</a>
+          </div>
+          <div class="project-meta">
+            <span>领域：AI 旅行规划</span>
+            <span>交付：Vercel</span>
+            <span>域名：travel-itinerary-assistant.vercel.app</span>
+          </div>
+        </div>
+        <a
+          class="project-thumb travel large"
+          href="https://travel-itinerary-assistant.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="访问 Travel Itinerary Assistant 线上项目"
+        >
+          <div class="thumb-top">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="thumb-body">
+            <div class="thumb-line"></div>
+            <div class="thumb-grid">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <div class="thumb-row"></div>
+          </div>
+          <div class="thumb-badge">AI</div>
+          <div class="thumb-link">点击访问</div>
+        </a>
+      </section>
+
+      <section class="section">
+        <div class="detail-grid reveal">
+          <div class="detail-card">
+            <h3>背景描述</h3>
+            <p>
+              旅行准备往往要翻多篇攻略，信息零散且不成体系。需要一个“快速输入 + 结构化输出”
+              的工具，把碎片信息整合成可执行的行程。
+            </p>
+          </div>
+          <div class="detail-card">
+            <h3>解决思路</h3>
+            <p>
+              用表单收集预算、兴趣、节奏等关键条件，再由 AI 生成按天行程，并提供摘要与贴士。
+              输出结构化 JSON，保证前端能稳定渲染。
+            </p>
+          </div>
+          <div class="detail-card">
+            <h3>亮点与收获</h3>
+            <ul>
+              <li>非中文地名自动追加中文译名，阅读负担更低。</li>
+              <li>卡片化布局，移动端浏览体验更顺滑。</li>
+              <li>兼顾 AI 生成与规则兜底，提升稳定性。</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Travel Itinerary Assistant</strong>
+        <p>从出行需求到可执行行程的快速闭环。</p>
+      </div>
+      <div class="footer-note">? 2026 ChupaNERV</div>
+    </footer>
+
+    <script src="../main.js"></script>
+  </body>
+</html>
